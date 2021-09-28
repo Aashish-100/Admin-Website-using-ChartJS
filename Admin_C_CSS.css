@@ -1,0 +1,143 @@
+
+.mainnav{
+    background-color: #A7C4BC;
+}
+.mainwel{
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+body{
+    background-color: #2F5D62;
+}
+.admain{
+    position: relative;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-style:inherit;
+    text-align: center;
+}
+.adlo{
+    position: relative;
+    left: 30px;
+    font-size:50px;
+}
+.col-sm-4{
+    margin-top:30px ;
+    width: 450px;
+    height: 300px;
+}
+.cardpos1{
+    margin-left: 20px;
+    background-color: #FFC1F3;
+    text-align: center;
+    border-color: black;
+    
+}
+.cardpos1:hover{
+    top:-10px;
+}
+.cardpos2:hover{
+    top:-10px;
+}
+.cardpos3:hover{
+    top:-10px;
+}
+.cardpos2{
+    background-color: #91C788;
+    text-align: center;
+    border-color: black;
+}
+.cardpos3{
+    background-color: #FAD586;
+    text-align: center;
+    border-color: black;
+}
+.detail{
+    font-family: 'Bree Serif', serif;
+    margin-top: 20px;
+    color:black;
+}
+.sysch{
+    background-color: #A0937D;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 40px;
+    color: #02383C;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate; 
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{left:45px;}
+    to{left:1000px;}
+}
+.ele_nav{
+    font-family: 'Bree Serif', serif;
+    position: relative;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.areac{
+    margin-left: 40px;
+    border-color: black;
+    margin-top: 50px;
+}
+.radc{
+    width: 340px;
+    height: 320px;
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 10%;
+
+}
+#horizontalbar{
+    background-color: #A7C4BC;
+    position: relative;
+    left: 10px;
+    bottom: 230px;
+    height: 350px;
+    border-radius: 2%;
+}
+#polararea{
+    background-color: #91C788;
+    position: relative;
+    left: 10px;
+    bottom: 130px;
+    height: 370px;
+    width: 200px;
+    border-radius: 2%;
+}
+.c{
+    width: 500px;
+    position: relative;
+    left: 400px;
+}
+.mc{
+    background-color: #FFC1F3;
+    position: relative;
+    left: 400px;
+    height: 370px;
+    width: 500px;
+    border-radius: 2%;
+}
+.ft{
+    background-color: #A7C4BC;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    padding: 30px;
+    left: 10px;
+    font-size: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
